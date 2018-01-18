@@ -3,7 +3,16 @@ Create UPDM Geodatabase geoprocessing tool
 
 Populates an existing file or multiuser geodatabase with all feature datasets, feature classes, tables, relationship classes, and domains needed for the Utility and Pipeline Data Model (UPDM) and creates an ALRS with events registered to the chosen network.
 
-The tool and documentation will be updated shortly.
+This tool is based on the spring 2017 UPDM.
+
+## Usage
+
+* The XY and Z tolerance should match that of source data that will be loaded into the networks and events.
+
+## Requirements
+
+* ArcGIS Desktop 10.6 or ArcGIS Pro 2.1
+* ArcGIS Pipeline Referencing
 
 ## Issues
 
